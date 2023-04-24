@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+ /* main heading of app */
+#heading{
+    font-size: xx-large;
+    margin-top:3rem;
+}
+
+.list{
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-item{
+    height: 3rem;
+    width:17rem;
+    border:2px solid black;
+    display:flex;
+    flex-direction: row;
+}
+
+.text{
+    margin:0;
+    margin-top: 0.2rem;
+}
+
+.text-box{
+    height:3rem;
+    width:12rem;
+    padding-left:0;
+}
+.human-icon{
+    display:inline-block;
+    margin: 1rem;
+}
+
+.delete-icon{
+    
+    margin-top: 0.6rem;
+}
